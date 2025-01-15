@@ -1,3 +1,4 @@
+ HEAD
 # Netflix Clone 
 
 This project is a small Netflix clone built using React and Vite. It allows users to view trending movies, original series, action, comedy, and more. Users can click on movie images to watch trailers if they are available on YouTube. If a trailer is not available, a "Trailer Not Found" message will be displayed in green at the bottom of the image.
@@ -68,3 +69,6 @@ We appreciate your contributions and will review your pull request as soon as po
 Please note that the availability of trailers depends on whether the movie trailers are available on YouTube. If no trailer is found, the "Trailer Not Found" message will be displayed.
 
 Happy Coding!
+
+# Netflix-clone
+ 78078752a386dc685f96feb2b12ec0797b10f963
