@@ -24,8 +24,11 @@
 }
 
 .nav__logo {
-    object-fit: contain;
-    width: 100px;
+    color: #e50914;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 1.25rem;
+    line-height: 1;
 }
 
 .navbar__links {
@@ -35,9 +38,12 @@
 
 .navbar__link {
     color: #e5e5e5;
-    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 0;
     font-size: 0.95rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .navbar__link:hover {
@@ -48,9 +54,11 @@
     border: none;
     background: transparent;
     color: #fff;
-    font-size: 1.15rem;
     cursor: pointer;
     padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__avatar {
