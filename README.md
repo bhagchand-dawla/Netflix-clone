@@ -49,8 +49,12 @@ To run these scripts, use the following command format: `npm run <script-name>`
 
 1. Clone the repository and navigate to the project directory.
 2. Run `npm install` to install the project dependencies.
-3. Use `npm run dev` to start the development server and preview the app locally.
-4. Explore the Netflix clone with various movie categories and click on the movie images to watch trailers if available.
+3. Create an environment file by copying `.env.example` to `.env` and set your TMDB API key:
+   ```bash
+   cp .env.example .env
+   ```
+4. Use `npm run dev` to start the development server and preview the app locally.
+5. Explore the Netflix clone with various movie categories and click on the movie images to watch trailers if available.
 
 ## Contributing
 
